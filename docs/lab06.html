@@ -3656,16 +3656,17 @@ aridity:p_mean  0.1048449 0.07198145   1.456555 1.458304e-01</code></pre>
 <pre><code>Warning: package &#39;xgboost&#39; was built under R version 4.4.3</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>→ A | error:   [21:52:30] src/data/data.cc:461: Check failed: valid: Label contains NaN, infinity or a value too large.</code></pre>
+<pre><code>→ A | error:   [22:11:07] src/data/data.cc:461: Check failed: valid: Label contains NaN, infinity or a value too large.</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
 <pre><code>There were issues with some computations   A: x1</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>→ B | error:   [21:52:31] src/data/data.cc:461: Check failed: valid: Label contains NaN, infinity or a value too large.</code></pre>
+<pre><code>→ B | error:   [22:11:08] src/data/data.cc:461: Check failed: valid: Label contains NaN, infinity or a value too large.</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
 <pre><code>There were issues with some computations   A: x1
+There were issues with some computations   A: x1   B: x4
 There were issues with some computations   A: x1   B: x8
 
 → A | error:   Error: Missing data in dependent variable.</code></pre>
@@ -3856,7 +3857,8 @@ There were issues with some computations   A: x1   B: x8
 #   soil_depth_statsgo &lt;dbl&gt;, elev_mean &lt;dbl&gt;</code></pre>
 </div>
 </div>
-<p>o</p>
+<p>I made a better looking graph (more linear) with q_mean that I would have rather submitted (I could sumbit a photo later if theres any concern with this graph) but for some reason it was the only error preventing me from rendering this html, so my apologies</p>
+<p>-&gt; what I think about these results is that it is not a very linear plot, so I might have made an error with my observed/predicted values. Overall, the observed values look a lot higher than the predicted values for most of the data, which is interesting.</p>
 
 </main>
 <!-- /main column -->

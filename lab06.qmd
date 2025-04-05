@@ -484,4 +484,7 @@ ggplot(rf_data, aes(x = .pred, y = logQmean)) +
 
 list(ctest_data)
 ```
-o
+I made a better looking graph (more linear) with q_mean that I would have rather submitted (I could sumbit a photo later if theres any concern with this graph) but for some reason it was the only error preventing me from rendering this html, so my apologies 
+
+-> what I think about these results is that it is not a very linear plot, so I might have made an error with my observed/predicted values. Overall, the observed values look a lot higher than the predicted values for most of the data, which is interesting. 
+
